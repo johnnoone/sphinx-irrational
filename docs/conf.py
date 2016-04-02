@@ -11,9 +11,9 @@ project = 'Errorist'
 copyright = '2016, Xavier Barbosa'
 author = 'Xavier Barbosa'
 
-import errorist
-version = errorist.__version__
-release = errorist.__version__
+from errorist._version import __version__
+version = __version__
+release = __version__
 
 language = None
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
