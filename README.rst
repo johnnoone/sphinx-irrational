@@ -2,6 +2,7 @@
 errorist: a Sphinx theme
 =========================
 
+
 What is errorist?
 ==================
 

@@ -1,0 +1,15 @@
+---
+
+pages:
+  script:
+    - python -m pip install sphinx
+    - python -m pip install -e .
+    - sphinx-build -b html docs public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+    - docs
+  tags:
+    - python3.5
