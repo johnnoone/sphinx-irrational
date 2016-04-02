@@ -5,7 +5,7 @@ from setuptools import setup
 
 # Version info -- read without importing
 _locals = {}
-with open('errorist/_version.py') as fp:
+with open('irrational/_version.py') as fp:
     exec(fp.read(), None, _locals)
 version = _locals['__version__']
 
@@ -14,14 +14,14 @@ with codecs.open('README.rst', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
-    name='errorist',
+    name='irrational',
     version=version,
     description='A configurable sidebar-enabled Sphinx theme',
     long_description=readme,
     author='Xavier Barbosa',
     author_email='clint.northwood@gmail.com',
-    url='http://sphinx.errorist.io/errorist',
-    packages=['errorist'],
+    url='http://sphinx.errorist.io/irrational',
+    packages=['irrational'],
     include_package_data=True,
     classifiers=[
         'Intended Audience :: Developers',
@@ -38,7 +38,7 @@ setup(
     ],
     entry_points = {
         'sphinx_themes': [
-            'path = errorist:get_path',
+            'path = irrational:get_path',
         ]
     },
 )

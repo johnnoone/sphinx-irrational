@@ -1,24 +1,19 @@
-=========================
-irrational: a Sphinx theme
-=========================
+Irrational theme
+==============
 
 
 What is irrational?
-==================
+------------------
 
 irrational is a visually (c)lean, responsive, configurable theme for the
 `Sphinx`_ documentation system. It is Python 2+3 compatible.
+Code source is published at https://lab.errorist.xyz/sphinx/irrational.
 
 It began as a third-party theme for https://lab.errorist.xyz projects.
 
-Live example of this theme can be seen on `overdub project
-<http://py.errorist.io/overdub>`_.
-
-A changelog_ can be found at the bottom of this page.
-
 
 Features
-========
+--------
 
 Specifically, as compared to Kenneth's theme:
 
@@ -34,7 +29,7 @@ Specifically, as compared to Kenneth's theme:
 
 
 Installation
-============
+------------
 
 The bare minimum required to install is as follows:
 
@@ -104,7 +99,7 @@ docs for 'html_static_path'
 
 
 Theme options
-=============
+-------------
 
 irrational's primary configuration route is the ``html_theme_options`` variable,
 set in ``conf.py`` alongside the rest. A brief example (*note*: snippet doesn't
@@ -264,7 +259,7 @@ Fonts
 
 
 Project background
-==================
+------------------
 
 irrational is a modified version of `Jeff Forcier's
 <http://bitprophet.org>`_ `"Alabaster" Sphinx theme
@@ -275,24 +270,6 @@ a modified (with permission) version of `Kenneth Reitz's
 in his `Requests <http://python-requests.org>`_ project). Kenneth's
 theme was itself originally based on Armin Ronacher's `Flask
 <http://flask.pocoo.org/>`_ theme. Many thanks to both for their hard work.
-
-
-Implementation notes
-====================
-
-* irrational use `Overpass font <http://overpassfont.org>`_.
-
-
-.. _changelog:
-
-Changelog
-=========
-
-0.1.0 (2016-03-25)
-------------------
-
-* Start project.
-
 
 .. _Codecov: https://codecov.io
 .. _Sphinx: http://sphinx-doc.org

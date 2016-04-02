@@ -1,6 +1,6 @@
 import os
 
-from errorist import _version as version
+from irrational import _version as version
 
 
 def get_path():
@@ -12,7 +12,7 @@ def get_path():
 
 
 def update_context(app, pagename, templatename, context, doctree):
-    context['errorist_version'] = version.__version__
+    context['irrational_version'] = version.__version__
 
 
 def setup(app):
