@@ -270,3 +270,6 @@ a modified (with permission) version of `Kenneth Reitz's
 in his `Requests <http://python-requests.org>`_ project). Kenneth's
 theme was itself originally based on Armin Ronacher's `Flask
 <http://flask.pocoo.org/>`_ theme. Many thanks to both for their hard work.
+
+.. _Codecov: https://codecov.io
+.. _Sphinx: http://sphinx-doc.org
