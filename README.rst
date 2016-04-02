@@ -1,12 +1,12 @@
 =========================
-errorist: a Sphinx theme
+irrational: a Sphinx theme
 =========================
 
 
-What is errorist?
+What is irrational?
 ==================
 
-errorist is a visually (c)lean, responsive, configurable theme for the
+irrational is a visually (c)lean, responsive, configurable theme for the
 `Sphinx`_ documentation system. It is Python 2+3 compatible.
 
 It began as a third-party theme for https://lab.errorist.xyz projects.
@@ -38,17 +38,17 @@ Installation
 
 The bare minimum required to install is as follows:
 
-#. ``pip install errorist`` (or equivalent).
-#. Enable the 'errorist' theme, mini-extension, and sidebar templates in your
+#. ``pip install irrational`` (or equivalent).
+#. Enable the 'irrational' theme, mini-extension, and sidebar templates in your
    ``conf.py``:
 
    .. code-block:: python
 
-        import errorist
+        import irrational
 
-        html_theme_path = [errorist.get_path()]
-        extensions = ['errorist']
-        html_theme = 'errorist'
+        html_theme_path = [irrational.get_path()]
+        extensions = ['irrational']
+        html_theme = 'irrational'
         html_sidebars = {
             '**': [
                 'about.html',
@@ -59,18 +59,18 @@ The bare minimum required to install is as follows:
             ]
         }
 
-That's it! You now have the standard errorist theme set up. Read on for more
+That's it! You now have the standard irrational theme set up. Read on for more
 configuration options/concerns.
 
 Theme location
 --------------
 
-The function ``errorist.get_path`` dynamically returns errorist's install
+The function ``irrational.get_path`` dynamically returns irrational's install
 location, ensuring that Sphinx can find and load it regardless of where/how
-you installed errorist. Using it is highly recommended.
+you installed irrational. Using it is highly recommended.
 
-If you've manually installed errorist and/or are doing funky things to your
-PYTHONPATH, you may need to replace the ``errorist.get_path()`` call with your
+If you've manually installed irrational and/or are doing funky things to your
+PYTHONPATH, you may need to replace the ``irrational.get_path()`` call with your
 own explicit string, as per `the Sphinx config docs
 <http://sphinx-doc.org/config.html#confval-html_theme_path>`_.
 
@@ -84,7 +84,7 @@ care much.
 * See `the Sphinx docs
   <http://sphinx-doc.org/config.html#confval-html_sidebars>`_ for details on
   how this setting behaves.
-* errorist provides ``about.html`` (logo, github button + blurb),
+* irrational provides ``about.html`` (logo, github button + blurb),
   ``donate.html`` (Gratipay blurb/button) and ``navigation.html`` (a more
   flexible version of the builtin ``localtoc``/``globaltoc`` templates).
   ``searchbox.html`` comes with Sphinx itself.
@@ -106,7 +106,7 @@ docs for 'html_static_path'
 Theme options
 =============
 
-errorist's primary configuration route is the ``html_theme_options`` variable,
+irrational's primary configuration route is the ``html_theme_options`` variable,
 set in ``conf.py`` alongside the rest. A brief example (*note*: snippet doesn't
 include all possible options, see following list!):
 
@@ -115,7 +115,7 @@ include all possible options, see following list!):
     html_theme_options = {
         'logo': 'logo.png',
         'github_user': 'bitprophet',
-        'github_repo': 'errorist',
+        'github_repo': 'irrational',
     }
 
 Variables and feature toggles
@@ -190,7 +190,7 @@ Variables and feature toggles
   can use ``:hidden:`` in your index page's root toctree & avoid having 2x
   copies of your navigation on your landing page.
 * ``show_powered_by``: Boolean controlling display of the ``Powered by
-  Sphinx N.N.N. & errorist M.M.M`` section of the footer. When ``true``, is
+  Sphinx N.N.N. & irrational M.M.M`` section of the footer. When ``true``, is
   displayed next to the copyright information; when ``false``, is hidden.
 * ``show_related``: Boolean controlling whether the 'next/previous/related'
   secondary navigation elements are hidden or displayed. Defaults to ``false``
@@ -266,7 +266,7 @@ Fonts
 Project background
 ==================
 
-errorist is a modified version of `Jeff Forcier's
+irrational is a modified version of `Jeff Forcier's
 <http://bitprophet.org>`_ `"Alabaster" Sphinx theme
 <https://github.com/bitprophet/alabaster>`_, based on
 a modified (with permission) version of `Kenneth Reitz's
@@ -280,7 +280,7 @@ theme was itself originally based on Armin Ronacher's `Flask
 Implementation notes
 ====================
 
-* errorist use `Overpass font <http://overpassfont.org>`_.
+* irrational use `Overpass font <http://overpassfont.org>`_.
 
 
 .. _changelog:
