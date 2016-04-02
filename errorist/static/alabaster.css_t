@@ -16,6 +16,7 @@
 
 
 @import url("basic.css");
+@import url("http://overpass-30e2.kxcdn.com/overpass.css");
 
 /* -- page layout ----------------------------------------------------------- */
 
@@ -204,7 +205,12 @@ div.body h6 {
     padding: 0;
 }
 
-div.body h1 { margin-top: 0; padding-top: 0; font-size: 240%; }
+div.body h1 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 500%;
+    font-weight: 100;
+}
 div.body h2 { font-size: 180%; }
 div.body h3 { font-size: 150%; }
 div.body h4 { font-size: 130%; }
@@ -387,7 +393,8 @@ ul, ol {
 }
 
 pre {
-    background: {{ theme_pre_bg }};
+    background-color: transparent;
+    border-left: 5px solid {{ theme_pre_bg }};
     padding: 7px 30px;
     margin: 15px 0px;
     line-height: 1.3em;
@@ -399,8 +406,8 @@ dl pre, blockquote pre, li pre {
 }
 
 dl dl pre {
-    margin-left: -90px;
-    padding-left: 90px;
+    margin-left: 0;
+    padding-left: 30px;
 }
 
 tt, code {

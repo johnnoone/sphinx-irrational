@@ -5,7 +5,7 @@ from setuptools import setup
 
 # Version info -- read without importing
 _locals = {}
-with open('alabaster/_version.py') as fp:
+with open('errorist/_version.py') as fp:
     exec(fp.read(), None, _locals)
 version = _locals['__version__']
 
@@ -14,14 +14,14 @@ with codecs.open('README.rst', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
-    name='alabaster',
+    name='errorist',
     version=version,
     description='A configurable sidebar-enabled Sphinx theme',
     long_description=readme,
-    author='Jeff Forcier',
-    author_email='jeff@bitprophet.org',
-    url='https://github.com/bitprophet/alabaster',
-    packages=['alabaster'],
+    author='Xavier Barbosa',
+    author_email='clint.northwood@gmail.com',
+    url='http://sphinx.errorist.io/errorist',
+    packages=['errorist'],
     include_package_data=True,
     classifiers=[
         'Intended Audience :: Developers',
