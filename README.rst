@@ -9,13 +9,10 @@ What is errorist?
 errorist is a visually (c)lean, responsive, configurable theme for the
 `Sphinx`_ documentation system. It is Python 2+3 compatible.
 
-It began as a third-party theme, and is still maintained separately, but as of
-Sphinx 1.3, errorist is an install-time dependency of Sphinx and is selected
-as the default theme.
+It began as a third-party theme for https://lab.errorist.xyz projects.
 
-Live examples of this theme can be seen on `paramiko.org
-<http://paramiko.org>`_, `fabfile.org <http://fabfile.org>`_ and `pyinvoke.org
-<http://pyinvoke.org>`_.
+Live example of this theme can be seen on `overdub project
+<http://py.errorist.io/overdub>`_.
 
 A changelog_ can be found at the bottom of this page.
 
