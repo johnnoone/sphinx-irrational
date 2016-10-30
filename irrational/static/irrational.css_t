@@ -430,6 +430,10 @@ a.reference:hover {
     border-bottom: 1px solid {{ theme_link_hover }};
 }
 
+a.image-reference {
+    border-bottom: none
+}
+
 a.footnote-reference {
     text-decoration: none;
     font-size: 0.7em;
