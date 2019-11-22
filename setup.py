@@ -22,11 +22,6 @@ setup(
     author_email='clint.northwood@gmail.com',
     url='http://sphinx.errorist.io/irrational',
     packages=['irrational'],
-    package_data = {'irrational': [
-        'theme.conf',
-        'layout.html',
-        'static/*.*',
-     ]},
     include_package_data=True,
     classifiers=[
         'Intended Audience :: Developers',
@@ -45,10 +40,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    entry_points = {
-        'sphinx_themes': [
-            'path = irrational:get_path',
-        ],
+    entry_points={
         'sphinx.html_themes': [
             'irrational = irrational',
         ]
