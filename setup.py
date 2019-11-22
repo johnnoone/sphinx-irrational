@@ -22,6 +22,11 @@ setup(
     author_email='clint.northwood@gmail.com',
     url='http://sphinx.errorist.io/irrational',
     packages=['irrational'],
+    package_data = {'irrational': [
+        'theme.conf',
+        'layout.html',
+        'static/*.*',
+     ]},
     include_package_data=True,
     classifiers=[
         'Intended Audience :: Developers',
