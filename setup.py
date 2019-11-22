@@ -48,6 +48,9 @@ setup(
     entry_points = {
         'sphinx_themes': [
             'path = irrational:get_path',
+        ],
+        'sphinx.html_themes': [
+            'irrational = irrational',
         ]
     },
 )
